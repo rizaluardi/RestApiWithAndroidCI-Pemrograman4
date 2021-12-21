@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">UAS Yola</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="back_to_login">Back to Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="okaery">Selamat Datang</string>
+    <string name="nama">Yola Vegita</string>
+    <string name="npm">1184070</string>
+    <string name="tdjr">Tambah Data Jurusan</string>
+    <string name="tjr">Tambah Jurusan</string>
+    <string name="ldj">Lihat Data Jurusan</string>
+    <string name="hdj">Hapus Data Jurusan</string>
+    <string name="listdtjr">LIST DATA JURUSAN</string>
+    <string name="empty_dat">DATA MASIH KOSONG</string>
+    <string name="jtif">Jurusan - Teknik Informatika</string>
+    <string name="jjd4">Jenjang - D4</string>
+    <string name="adddata">Tambah Data</string>
+    <string name="sqlites">CRUD SQlite Jurusan</string>
+    <string name="webservapi">CRUD Mysql Webserver Api</string>
+    <string name="updown">Upload / Download File</string>
+    <string name="tbkontaks">TABEL kontak</string>
+    <string name="tabel_ruangan">TABEL RUANGAN</string>
+    <string name="tabel_alamat">TABEL ALAMAT</string>
+    <string name="tabel_instansi">TABEL INSTANSI</string>
+    <string name="svfl">Simpan File ?</string>
+    <string name="dload">Download</string>
+    <string name="upload">Upload</string>
+</resources>

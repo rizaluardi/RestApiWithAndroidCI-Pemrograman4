@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yola.uasyola">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UASYola">
+        <activity android:name=".DownloadUpload"></activity>
+        <activity android:name=".activityweb.InsertActivityRuangan" />
+        <activity android:name=".activityweb.EditActivityRuangan" />
+        <activity android:name=".activityweb.MainActivityRuangan" />
+        <activity android:name=".activityweb.MainActivityInstansi" />
+        <activity android:name=".activityweb.MainActivityAlamat" />
+        <activity android:name=".activityweb.InsertActivityInstansi" />
+        <activity android:name=".activityweb.InsertActivityAlamat" />
+        <activity android:name=".activityweb.EditActivityInstansi" />
+        <activity android:name=".activityweb.EditActivityAlamat" />
+        <activity android:name=".HomeWebActivity" />
+        <activity android:name=".activityweb.MainActivityWeb" />
+        <activity android:name=".activityweb.InsertActivity" />
+        <activity android:name=".activityweb.EditActivity" />
+        <activity android:name=".activity.TambahJurusanActivity" />
+        <activity android:name=".activity.LihatJurusanActivity" />
+        <activity android:name=".activity.HomeScrActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScr">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+</manifest>

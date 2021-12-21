@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_insert_ruangan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".activityweb.InsertActivityRuangan">
+
+    <TextView
+        android:id="@+id/tvRuangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruangan : "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvNomorg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor : "
+        android:layout_below="@id/tvRuangan"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtRuangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ruangan"
+        android:layout_toRightOf="@+id/tvRuangan"
+        android:layout_alignBaseline="@+id/tvRuangan"/>
+    <EditText
+        android:id="@+id/edtNomorg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nomor"
+        android:layout_toRightOf="@+id/tvNomorg"
+        android:layout_alignBaseline="@+id/tvNomorg"/>
+    <LinearLayout
+        android:id="@+id/LinearlayoutRuangan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvNomorg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btInsertingRuangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"/>
+        <Button
+            android:id="@+id/btBackGoRuangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+    </LinearLayout>
+</RelativeLayout>
